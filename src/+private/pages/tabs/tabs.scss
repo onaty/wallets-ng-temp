@@ -1,0 +1,12 @@
+page-tabs {
+  .tabbar::before {
+    background-image: none !important;
+  }
+  .tabbar {
+    box-shadow: 0px 43px 21px 29px #0f0b0f;
+  }
+  .tabs-ios .tabbar {
+    border-top: none !important;
+    box-shadow: 0px 43px 21px 29px #0f0b0f;
+  }
+}
