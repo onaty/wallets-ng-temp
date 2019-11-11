@@ -32,7 +32,7 @@ page-home {
   .inner-top .p2 {
     flex: 2;
     color: white;
-    font-size: 48px;
+    font-size: 32px;
   }
   .inner-top ion-icon {
     height: 0.7em;
@@ -69,11 +69,11 @@ page-home {
   }
   ion-badge {
     position: absolute;
-    right: 33px;
+    right: 27px;
     padding: 3px 8px;
     text-align: center;
     display: inline-block;
-    min-width: 13px;
+    min-width: 10px;
     font-size: 1.3rem;
     font-weight: bold;
     line-height: 1;
@@ -121,7 +121,7 @@ page-home {
   }
 
   .features ion-icon {
-    font-size: 35px;
+    font-size: 26px;
   }
 
   .features-row {
