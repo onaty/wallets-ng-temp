@@ -9,4 +9,12 @@ page-tabs {
     border-top: none !important;
     box-shadow: 0px 43px 21px 29px #0f0b0f;
   }
+  .tab-badge{
+    border-radius: 100%;
+    right: calc(50% - 18px) !important;
+    height: 13px;
+    top: 9%;
+    min-width: 13px;
+    background: red;
+  }
 }
