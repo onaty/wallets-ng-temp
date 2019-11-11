@@ -28,7 +28,7 @@ ion-icon {
     mask-image: url(../assets/imgs/walleted.png);
   }
   &[class*="transactiontab"] {
-    mask-image: url(../assets/imgs/transaction.png);
+    mask-image: url(../assets/svg/historyUnion.svg);
   }
   &[class*="chatting"] {
     mask-image: url(../assets/svg/chat.svg);
@@ -48,7 +48,7 @@ ion-icon {
     mask-image: url(../assets/svg/billsIcon.svg);
   }
   &[class*="airtime"] {
-    mask-image: url(../assets/imgs/airtime.png);
+    mask-image: url(../assets/svg/airtty.svg);
   }
 }
 

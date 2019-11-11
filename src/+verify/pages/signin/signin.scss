@@ -10,8 +10,8 @@ page-signin {
     position: absolute;
     height: 57%;
     width: 100%;
-    background: linear-gradient(299.91deg, #5C2799 -4.09%, #00C9B6 76.83%);
-opacity: 0.28 ;
+    background: linear-gradient(299.91deg, #5c2799 -4.09%, #00c9b6 76.83%);
+    opacity: 0.28;
     border-bottom-right-radius: 80% 51%;
   }
   .div-bgroud {
@@ -24,6 +24,9 @@ opacity: 0.28 ;
     flex: 2;
     z-index: 4;
   }
+  .pleasesi {
+    margin: 0px !important;
+  }
   .welcome-div {
     flex: 2;
     display: flex;
@@ -32,14 +35,21 @@ opacity: 0.28 ;
     align-items: center;
     z-index: 4;
   }
-  .welcome-signin{
+  .list-ios > .item-block:first-child {
+    border: none !important;
+  }
+  .welcome-signin {
     z-index: 4;
   }
-  .passthrough{
+  .passthrough {
     height: 100%;
     width: 100%;
     position: absolute;
-    background: radial-gradient(100% 100% at 100% 100%, #5C2799 0%, #E4445D 100%);
+    background: radial-gradient(
+      100% 100% at 100% 100%,
+      #5c2799 0%,
+      #e4445d 100%
+    );
     opacity: 0.3;
   }
   .welcome-div p {

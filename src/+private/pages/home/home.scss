@@ -16,7 +16,7 @@ page-home {
     width: calc(100% - 20px);
     height: 45px;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
   }
 
   .inner-top .p1 {
@@ -67,13 +67,13 @@ page-home {
     text-decoration-line: underline;
     color: #ffffff;
   }
-  ion-badge{
+  ion-badge {
     position: absolute;
-    right: 34px;
+    right: 33px;
     padding: 3px 8px;
     text-align: center;
     display: inline-block;
-    min-width: 16px;
+    min-width: 13px;
     font-size: 1.3rem;
     font-weight: bold;
     line-height: 1;
@@ -81,8 +81,8 @@ page-home {
     vertical-align: top;
     border-radius: 100% !important;
     color: #fff;
-    background-color: #E4445D !important;
-    height: 16px;
+    background-color: #e4445d !important;
+    height: 13px;
   }
   .abutton {
     ion-badge {
@@ -90,7 +90,7 @@ page-home {
       top: -0.2rem;
       right: -0.2rem;
       opacity: 0.9;
-  
+
       & ~ ion-icon {
         margin-right: 1.2rem;
       }
@@ -137,15 +137,23 @@ page-home {
     justify-content: center;
     align-items: center;
   }
-
+  .transactiondetails {
+    margin: 0 0 2px;
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
   .transactiondiv ion-icon {
     font-size: 25px;
   }
 
-  ion-list-header{
+  ion-list-header {
     border: none !important;
   }
-  .item-inner{
+  .item-inner {
     border-bottom: none !important;
+  }
+  .list-ios > .item-block:last-child,
+  .list-ios > .item-wrapper:last-child .item-block {
+    border: none;
   }
 }
