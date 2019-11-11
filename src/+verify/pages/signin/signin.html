@@ -1,0 +1,35 @@
+<ion-content>
+
+  <!-- <img src="assets/svg/rext.svg" alt="logo" /> -->
+  <div class="opaqdiv">
+      <!-- <p> Please sign in. </p> -->
+    </div>
+    <div class="passthrough"> </div>
+  <div padding class="div-bgroud">
+    <div class="welcome-div">
+      <img src="assets/svg/walletafrica.svg" alt="logo" />
+      <p>Hello, welcome back </p>
+      <p> Please sign in. </p>
+    </div>
+    <ion-list>
+
+      <ion-item>
+        <ion-label>Phone Number</ion-label>
+        <ion-input type="text" value=""></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Password</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+      <p class="authtext" ion-text color="white" text-center>Forgot Your Password?</p>
+    </ion-list>
+    <div class="welcome-signin">
+
+      <button (click)="login()" padding-button class="authbutton" ion-button full>Sign In</button>
+      <p class="authtext" ion-text color="white" text-center>New to Wallet? Create an account</p>
+    </div>
+  </div>
+  
+
+</ion-content>

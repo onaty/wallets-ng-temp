@@ -1,0 +1,80 @@
+page-signin {
+  ion-content {
+    background: radial-gradient(
+      100% 100% at 100% 100%,
+      #5c2799 0%,
+      #00c9b6 100%
+    );
+  }
+  .opaqdiv {
+    position: absolute;
+    height: 57%;
+    width: 100%;
+    background: linear-gradient(299.91deg, #5C2799 -4.09%, #00C9B6 76.83%);
+opacity: 0.28 ;
+    border-bottom-right-radius: 80% 51%;
+  }
+  .div-bgroud {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  ion-list {
+    flex: 2;
+    z-index: 4;
+  }
+  .welcome-div {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+  }
+  .welcome-signin{
+    z-index: 4;
+  }
+  .passthrough{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: radial-gradient(100% 100% at 100% 100%, #5C2799 0%, #E4445D 100%);
+    opacity: 0.3;
+  }
+  .welcome-div p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    margin: 17px 0px 0px 0px;
+    color: #ffffff;
+  }
+  .item {
+    background: none !important;
+  }
+
+  .input-wrapper {
+    border-bottom: 1px solid #ffffff !important;
+  }
+  ion-label {
+    color: white !important;
+  }
+  .item-inner {
+    border-bottom: none !important;
+  }
+  .item-input:last-child {
+    border-bottom: none !important;
+  }
+  .authtext {
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  .authbutton {
+    border-radius: 5px;
+    box-shadow: none !important;
+    margin-bottom: 22px;
+  }
+}
